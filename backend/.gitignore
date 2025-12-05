@@ -1,0 +1,77 @@
+##################################
+# Node & Dependencies
+##################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+##################################
+# Environment & Keys (important)
+##################################
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+##################################
+# Build Output / Production
+##################################
+dist/
+build/
+.cache/
+.temp/
+out/
+coverage/
+
+##################################
+# Logs
+##################################
+logs/
+*.log
+*.log.*
+debug.log
+
+##################################
+# OS / System Files
+##################################
+.DS_Store
+Thumbs.db
+
+##################################
+# IDE / Editor
+##################################
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+##################################
+# Misc
+##################################
+*.pid
+*.seed
+*.tgz
+*.env.backup
+
+##################################
+# MERN Structure-Specific
+##################################
+backend/node_modules/
+backend/logs/
+backend/coverage/
+backend/dist/
+backend/build/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.next/
+frontend/coverage/
+frontend/.eslintcache
